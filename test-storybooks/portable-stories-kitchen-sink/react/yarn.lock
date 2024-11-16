@@ -1769,11 +1769,11 @@ __metadata:
   linkType: soft
 
 "@storybook/components@file:../../../code/deprecated/components::locator=portable-stories-react%40workspace%3A.":
-  version: 8.4.0-alpha.7
-  resolution: "@storybook/components@file:../../../code/deprecated/components#../../../code/deprecated/components::hash=a9048b&locator=portable-stories-react%40workspace%3A."
+  version: 8.5.0-alpha.2
+  resolution: "@storybook/components@file:../../../code/deprecated/components#../../../code/deprecated/components::hash=be4e8f&locator=portable-stories-react%40workspace%3A."
   peerDependencies:
-    storybook: "workspace:^"
-  checksum: 10/2e10c1adea642a4c1245d18d97ef20aa6a5aae7b0ef0dda10db113e31a76231e68aa263fe62ee966061d2a6841abe069df21be14fb5141dc7df73d17a94ff154
+    storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+  checksum: 10/c76681e869eaedc530070128f8132c7f803d0e7267ad5245f2f7497bd0232bc1f2ffe40253fcc839e476d1039c6a8904d6e9e15d564a6bac73aea302a34dceb4
   languageName: node
   linkType: hard
 
@@ -1829,8 +1829,8 @@ __metadata:
   linkType: hard
 
 "@storybook/experimental-addon-test@file:../../../code/addons/test::locator=portable-stories-react%40workspace%3A.":
-  version: 8.4.0-alpha.7
-  resolution: "@storybook/experimental-addon-test@file:../../../code/addons/test#../../../code/addons/test::hash=82a764&locator=portable-stories-react%40workspace%3A."
+  version: 8.5.0-alpha.2
+  resolution: "@storybook/experimental-addon-test@file:../../../code/addons/test#../../../code/addons/test::hash=dffabb&locator=portable-stories-react%40workspace%3A."
   dependencies:
     "@storybook/csf": "npm:^0.1.11"
     "@storybook/global": "npm:^5.0.0"
@@ -1853,7 +1853,7 @@ __metadata:
       optional: true
     vitest:
       optional: true
-  checksum: 10/e3092244dbfd410cd43a3561d84aa05fe158264e624bc4cb500f2c8efc425f01ec5ead5e25e322a6ebb9cad5f704a52bbd15bf2abc9b7f6e99db89c08f37382e
+  checksum: 10/63557ff26dcac2b88f9166ab0bdd929bfd0d998da639679a2e11e01b5ed217eae994ab900fd9c4a7136ef6c241df3dfbcf6fd1251410919fc76bf0c527cf21b7
   languageName: node
   linkType: hard
 
@@ -1886,20 +1886,20 @@ __metadata:
   linkType: soft
 
 "@storybook/manager-api@file:../../../code/deprecated/manager-api::locator=portable-stories-react%40workspace%3A.":
-  version: 8.4.0-alpha.7
-  resolution: "@storybook/manager-api@file:../../../code/deprecated/manager-api#../../../code/deprecated/manager-api::hash=3b0337&locator=portable-stories-react%40workspace%3A."
+  version: 8.5.0-alpha.2
+  resolution: "@storybook/manager-api@file:../../../code/deprecated/manager-api#../../../code/deprecated/manager-api::hash=b3ca8d&locator=portable-stories-react%40workspace%3A."
   peerDependencies:
-    storybook: "workspace:^"
-  checksum: 10/ad5bff1af09421670ff6b60df46231c737d7d3530c0930995fb4b39060781f7d6f276c0f941d8e534accc5dbae66f564d246e0da018b9c5ca3ee1e811b04f325
+    storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+  checksum: 10/d3d4f44d4552e8a2b909b587b4d22d146a9c0eb05300ce5c428031869ce9538fc41ffc6fc64d52479a70d5809c4281ecb8d589ad0d8366ac73e6bf9118abfd29
   languageName: node
   linkType: hard
 
 "@storybook/preview-api@file:../../../code/deprecated/preview-api::locator=portable-stories-react%40workspace%3A.":
-  version: 8.4.0-alpha.7
-  resolution: "@storybook/preview-api@file:../../../code/deprecated/preview-api#../../../code/deprecated/preview-api::hash=56e670&locator=portable-stories-react%40workspace%3A."
+  version: 8.5.0-alpha.2
+  resolution: "@storybook/preview-api@file:../../../code/deprecated/preview-api#../../../code/deprecated/preview-api::hash=67c2c3&locator=portable-stories-react%40workspace%3A."
   peerDependencies:
-    storybook: "workspace:^"
-  checksum: 10/0242d50ab4d165b926bc389791a3deb76fd0148dc1f39b31ec2ae7e77f017613b87cf0efc89ec8b6ae72128b9cc84b3289e921eaa1940180fc3482d158339fbd
+    storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+  checksum: 10/ee998e0e5c3b8d897c63f65c9557bf23ab37b7aba1bf04947a34835c044781cf62c268b44be3fc661235bf1cface9436f081d2c9df1b875a979ac92b369ee322
   languageName: node
   linkType: hard
 
@@ -1938,12 +1938,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@storybook/react@portal:../../../code/renderers/react::locator=portable-stories-react%40workspace%3A."
   dependencies:
-    "@storybook/components": "workspace:^"
+    "@storybook/components": "workspace:*"
     "@storybook/global": "npm:^5.0.0"
-    "@storybook/manager-api": "workspace:^"
-    "@storybook/preview-api": "workspace:^"
+    "@storybook/manager-api": "workspace:*"
+    "@storybook/preview-api": "workspace:*"
     "@storybook/react-dom-shim": "workspace:*"
-    "@storybook/theming": "workspace:^"
+    "@storybook/theming": "workspace:*"
   peerDependencies:
     "@storybook/test": "workspace:*"
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
@@ -1976,11 +1976,11 @@ __metadata:
   linkType: soft
 
 "@storybook/theming@file:../../../code/deprecated/theming::locator=portable-stories-react%40workspace%3A.":
-  version: 8.4.0-alpha.7
-  resolution: "@storybook/theming@file:../../../code/deprecated/theming#../../../code/deprecated/theming::hash=3f019a&locator=portable-stories-react%40workspace%3A."
+  version: 8.5.0-alpha.2
+  resolution: "@storybook/theming@file:../../../code/deprecated/theming#../../../code/deprecated/theming::hash=b15df9&locator=portable-stories-react%40workspace%3A."
   peerDependencies:
-    storybook: "workspace:^"
-  checksum: 10/80024449814b032a9156fe2c70ff481fcfd04f5812c818b162dadadad36b9e642e1577ec51fd1330937d30853538c216662aad8f002cc75d088dc73e019afc2d
+    storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+  checksum: 10/bf9ddacf15bf25472a57f274f3bfc82d02bd0d893b4d3d3c2497d105efeae209c0bda2700f7e9671149d662218c20541565b8875954e57e3512cb552325008ca
   languageName: node
   linkType: hard
 
@@ -3715,13 +3715,13 @@ __metadata:
   linkType: hard
 
 "cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
-  version: 7.0.3
-  resolution: "cross-spawn@npm:7.0.3"
+  version: 7.0.5
+  resolution: "cross-spawn@npm:7.0.5"
   dependencies:
     path-key: "npm:^3.1.0"
     shebang-command: "npm:^2.0.0"
     which: "npm:^2.0.1"
-  checksum: 10/e1a13869d2f57d974de0d9ef7acbf69dc6937db20b918525a01dacb5032129bd552d290d886d981e99f1b624cb03657084cc87bd40f115c07ecf376821c729ce
+  checksum: 10/c95062469d4bdbc1f099454d01c0e77177a3733012d41bf907a71eb8d22d2add43b5adf6a0a14ef4e7feaf804082714d6c262ef4557a1c480b86786c120d18e2
   languageName: node
   linkType: hard
 
